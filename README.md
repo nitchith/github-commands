@@ -1,3 +1,4 @@
+## Git Commands
 ### Push local code to remote repo
 ```bash
 git init
@@ -9,3 +10,5 @@ git add ${files}
 git commit -m "Message"
 git push --set-upstream origin ${branch}
 ```
+
+## Conda setup
