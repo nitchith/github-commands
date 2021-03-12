@@ -12,3 +12,6 @@ git push --set-upstream origin ${branch}
 ```
 
 ## Conda setup
+```bash
+conda config --add channels condaforge
+```
