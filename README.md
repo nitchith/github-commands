@@ -17,4 +17,6 @@ git push --set-upstream origin ${branch}
 conda config --add channels conda-forge
 # Create Environment
 conda create --name ${env-name} python=3.5.2
+# Delete Environment
+conda env remove -n ${env-name}
 ```
