@@ -13,6 +13,8 @@ git push --set-upstream origin ${branch}
 
 ## Conda setup
 ```bash
+# Add channels to config file
 conda config --add channels conda-forge
+# Create Environment
 conda create --name ${env-name} python=3.5.2
 ```
